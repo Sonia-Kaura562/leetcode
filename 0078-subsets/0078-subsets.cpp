@@ -1,20 +1,20 @@
 class Solution {
 public:
-    vector<vector<int>>ans;
-    void solve(vector<int>&arr, vector<vector<int>> &ans, vector<int>&temp, int index) {
-        if(index >= arr.size()) {
-            ans.push_back(temp);
-            return;
+    vector<vector<int>> ans;
+
+    void backtrack(vector<int>& nums, vector<int>& subset, int index) {
+        ans.push_back(subset);
+
+        for (int i = index; i < nums.size(); i++) {
+            subset.push_back(nums[i]);
+            backtrack(nums, subset, i + 1);
+            subset.pop_back();
         }
-        temp.push_back(arr[index]);
-        solve(arr, ans, temp, index + 1);
-        temp.pop_back();
-        solve(arr, ans, temp, index + 1);
     }
+
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<int>temp;
-        vector<vector<int>>ans;
-        solve(nums, ans, temp, 0);
+        vector<int> subset;
+        backtrack(nums, subset, 0);
         return ans;
     }
 };
