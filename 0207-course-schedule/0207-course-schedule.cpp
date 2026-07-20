@@ -1,5 +1,5 @@
 class Solution {
-public:
+private: 
     bool dfs(vector<vector<int>>& adj, vector<int>& vis, vector<int>& visPath, int node) {
         for(int i = 0; i < adj[node].size(); i++) {
             if(!vis[adj[node][i]]) {
@@ -16,6 +16,7 @@ public:
         }
         return true;
     }
+public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         //int vis [numCourses] = {0};
         if(numCourses == 0 or numCourses == 1) return true;
