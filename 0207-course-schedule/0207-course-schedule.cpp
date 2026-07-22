@@ -1,39 +1,35 @@
 class Solution {
 private:
-    int bfs(vector<vector<int>>& adj, vector<int>& indegree, queue<int>& q) {
-        int processed = 0;
-        while(!q.empty()) {
-            int fr = q.front();
-            q.pop();
-            processed++;
-            for(int i = 0; i < adj[fr].size(); i++) {
-                int curr = adj[fr][i];
-                indegree[curr]--;
-                if(indegree[curr] == 0) { 
-                    q.push(curr);
-                }    
+    void dfs(vector<vector<int>>& adj, vector<int>& indegree, vector<int>& pathvisited, int & processed, int curr) {
+        for(int i = 0; i < adj[curr].size(); i++) {
+            int fr = adj[curr][i];
+            indegree[fr]--;
+            if(!indegree[fr] and !pathvisited[fr]) {
+                processed++;
+                pathvisited[fr] = 1;
+                dfs(adj, indegree, pathvisited, processed, fr);
             }
         }
-        return processed;
     }
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        if(numCourses == 0 or numCourses == 1) return true;
-        queue<int>q;
+        vector<vector<int>> adj(numCourses);
         vector<int>indegree(numCourses, 0);
-        vector<vector<int>>adj(numCourses); 
-        for(int i = 0; i < prerequisites.size(); i++) {
-            adj[prerequisites[i][1]].push_back(prerequisites[i][0]);
+        vector<int>pathvisited(numCourses, 0);
+        for(int i = 0; i < prerequisites.size(); i++){
+            int u = prerequisites[i][0];
+            int v = prerequisites[i][1];
+            adj[v].push_back(u);
+            indegree[u]++;
         }
-        for(int i = 0; i < prerequisites.size(); i++) {
-            indegree[prerequisites[i][0]]++;
-        }
+        int processed = 0;
         for(int i = 0; i < numCourses; i++) {
-            if(indegree[i] == 0) {
-                q.push(i);
+            if(!indegree[i] and !pathvisited[i]) {
+                processed++;
+                pathvisited[i] = 1;
+                dfs(adj, indegree, pathvisited, processed, i);
             }
         }
-        int processed = bfs(adj, indegree, q);
         return processed == numCourses;
     }
 };
