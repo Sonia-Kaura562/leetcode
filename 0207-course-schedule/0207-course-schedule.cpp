@@ -1,9 +1,7 @@
 class Solution {
 private:
     int bfs(vector<vector<int>>& adj, vector<int>& indegree, queue<int>& q) {
-        
         int processed = 0;
-        
         while(!q.empty()) {
             int fr = q.front();
             q.pop();
@@ -11,8 +9,7 @@ private:
             for(int i = 0; i < adj[fr].size(); i++) {
                 int curr = adj[fr][i];
                 indegree[curr]--;
-                if(indegree[curr] == 0) {
-                    
+                if(indegree[curr] == 0) { 
                     q.push(curr);
                 }    
             }
@@ -37,7 +34,7 @@ public:
                 q.push(i);
             }
         }
-        processed += bfs(adj, indegree, q);
+        processed = bfs(adj, indegree, q);
         return processed == numCourses;
     }
 };
