@@ -28,13 +28,12 @@ public:
         for(int i = 0; i < prerequisites.size(); i++) {
             indegree[prerequisites[i][0]]++;
         }
-        int processed = 0;
         for(int i = 0; i < numCourses; i++) {
             if(indegree[i] == 0) {
                 q.push(i);
             }
         }
-        processed = bfs(adj, indegree, q);
+        int processed = bfs(adj, indegree, q);
         return processed == numCourses;
     }
 };
