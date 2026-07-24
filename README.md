@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0011-container-with-most-water) |
 | [0039-combination-sum](https://github.com/Sonia-Kaura562/leetcode/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/Sonia-Kaura562/leetcode/tree/master/0078-subsets) |
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
@@ -83,4 +84,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/1143-longest-common-subsequence) |
+## Two Pointers
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0011-container-with-most-water) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
