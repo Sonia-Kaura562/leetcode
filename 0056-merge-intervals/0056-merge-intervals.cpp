@@ -9,6 +9,9 @@ public:
                     intervals.erase(intervals.begin() + j);
                     j--;
                 }
+                else {
+                    break;
+                }
             }
         }
 
