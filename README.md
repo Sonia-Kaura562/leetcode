@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0011-container-with-most-water) |
 | [0039-combination-sum](https://github.com/Sonia-Kaura562/leetcode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0042-trapping-rain-water) |
+| [0056-merge-intervals](https://github.com/Sonia-Kaura562/leetcode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/Sonia-Kaura562/leetcode/tree/master/0078-subsets) |
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0322-coin-change) |
@@ -106,4 +107,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0042-trapping-rain-water) |
+## Sorting
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/Sonia-Kaura562/leetcode/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
