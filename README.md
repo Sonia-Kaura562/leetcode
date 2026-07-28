@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/1143-longest-common-subsequence) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -111,4 +112,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Sonia-Kaura562/leetcode/tree/master/0056-merge-intervals) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Counting Sort
+|  |
+| ------- |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 <!---LeetCode Topics End-->
