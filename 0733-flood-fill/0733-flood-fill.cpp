@@ -17,6 +17,8 @@ public:
         int rowSize = image.size();
         int colSize = image[0].size();
         int currColor = image[sr][sc];
+        if (currColor == color)
+            return image;
         int adj[4][2] = {{0, -1}, {-1, 0}, {0, 1}, {1, 0}};
         dfs(image, sr, sc, color, rowSize, colSize, adj, currColor);
         return image;
