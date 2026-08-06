@@ -13,7 +13,6 @@ private:
     }
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        vector<pair<int, int>>v;
         int rowSize = image.size();
         int colSize = image[0].size();
         int currColor = image[sr][sc];
