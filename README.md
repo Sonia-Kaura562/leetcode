@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Sonia-Kaura562/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Sonia-Kaura562/leetcode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/Sonia-Kaura562/leetcode/tree/master/0078-subsets) |
+| [0128-longest-consecutive-sequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/Sonia-Kaura562/leetcode/tree/master/0733-flood-fill) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Sonia-Kaura562/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Graph Theory
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sonia-Kaura562/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/Sonia-Kaura562/leetcode/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sonia-Kaura562/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0997-find-the-town-judge](https://github.com/Sonia-Kaura562/leetcode/tree/master/0997-find-the-town-judge) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
