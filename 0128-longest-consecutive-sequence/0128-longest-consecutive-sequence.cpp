@@ -7,7 +7,7 @@ public:
         for(auto ele : set) {
             int count = 0;
             if(set.find(ele - 1) == set.end()) {
-                // count  = 0;
+                count = 0;
                 while(set.find(ele) != set.end()) {
                     ele++;
                     count++;
