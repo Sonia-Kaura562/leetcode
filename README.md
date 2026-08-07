@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0011-container-with-most-water) |
 | [0039-combination-sum](https://github.com/Sonia-Kaura562/leetcode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0042-trapping-rain-water) |
+| [0049-group-anagrams](https://github.com/Sonia-Kaura562/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Sonia-Kaura562/leetcode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/Sonia-Kaura562/leetcode/tree/master/0078-subsets) |
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sonia-Kaura562/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/Sonia-Kaura562/leetcode/tree/master/0049-group-anagrams) |
 | [1143-longest-common-subsequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/1143-longest-common-subsequence) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Sonia-Kaura562/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Sonia-Kaura562/leetcode/tree/master/0056-merge-intervals) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -135,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sonia-Kaura562/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/Sonia-Kaura562/leetcode/tree/master/0049-group-anagrams) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sonia-Kaura562/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0997-find-the-town-judge](https://github.com/Sonia-Kaura562/leetcode/tree/master/0997-find-the-town-judge) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
