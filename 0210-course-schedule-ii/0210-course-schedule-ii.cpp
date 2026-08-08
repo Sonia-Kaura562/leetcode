@@ -11,10 +11,11 @@ private:
             }
             else if(!vis[b]) {
                 dfs(b, adj, order, vis);
+                vis[b] = 1;
                 if(order == vector<int>{}) return;
             }
         }
-        vis[curr] = 1;
+        //vis[curr] = 1;
         order.push_back(curr);
     }
 public:
