@@ -1,8 +1,6 @@
 class Solution {
 private:
-    void bfs(int i,vector<int>& vis, vector<vector<int>>& adj, vector<int>& indegree, vector<int>& order) {
-        queue<int>q;
-        q.push(i);
+    void bfs(vector<vector<int>>& adj, vector<int>& indegree, vector<int>& order, queue<int>& q) {
         while(!q.empty()) {
             int fr = q.front();
             order.push_back(fr);
@@ -11,7 +9,6 @@ private:
                 int b = adj[fr][i];
                 indegree[b]--;
                 if(!indegree[b]) {
-                    vis[b] = 1;
                     q.push(b);
                 }
             }
@@ -21,8 +18,8 @@ public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>>adj(numCourses);
         vector<int>indegree(numCourses, 0);
-        vector<int>vis(numCourses, 0);
         vector<int>order;
+        queue<int>q;
         int size = prerequisites.size();
         for(int i = 0; i < size; i++) {
             int a = prerequisites[i][0];
@@ -32,11 +29,11 @@ public:
         }
         
         for(int i = 0; i < numCourses; i++) {
-            if(!vis[i] and !indegree[i]) {
-                vis[i] = 1;
-                bfs(i, vis, adj, indegree, order);
+            if(!indegree[i]) {
+                q.push(i);
             }
         }
+        bfs(adj, indegree, order, q);
         return (order.size() == numCourses) ? order : vector<int>{};
         
     }
