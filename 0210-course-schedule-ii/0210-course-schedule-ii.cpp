@@ -1,12 +1,12 @@
 class Solution {
 private:
     void dfs(int curr, vector<vector<int>>& adj, vector<int>& indegree, vector<int>& order, vector<int>& vis) {
+        vis[curr] = 1;
         order.push_back(curr);
         for(int i = 0; i < adj[curr].size(); i++) {
             int b = adj[curr][i];
             indegree[b]--;
             if(!indegree[b] and !vis[b]) {
-                vis[b] = 1;
                 dfs(b, adj, indegree, order, vis);
             }
         }
@@ -27,7 +27,6 @@ public:
         
         for(int i = 0; i < numCourses; i++) {
             if(!indegree[i] and !vis[i]) {
-                vis[i] = 1;
                 dfs(i, adj, indegree, order, vis);
             }
         }
