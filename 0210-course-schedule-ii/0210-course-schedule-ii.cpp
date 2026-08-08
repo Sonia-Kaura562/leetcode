@@ -1,6 +1,6 @@
 class Solution {
 private:
-    void bfs(int numCourses, int i, vector<int>& vis, vector<vector<int>>& adj, vector<int>& indegree, vector<int>& order) {
+    void bfs(int i,vector<int>& vis, vector<vector<int>>& adj, vector<int>& indegree, vector<int>& order) {
         queue<int>q;
         q.push(i);
         while(!q.empty()) {
@@ -10,7 +10,7 @@ private:
             for(int i = 0; i < adj[fr].size(); i++) {
                 int b = adj[fr][i];
                 indegree[b]--;
-                if(!indegree[b] and !vis[b]) {
+                if(!indegree[b]) {
                     vis[b] = 1;
                     q.push(b);
                 }
@@ -34,9 +34,10 @@ public:
         for(int i = 0; i < numCourses; i++) {
             if(!vis[i] and !indegree[i]) {
                 vis[i] = 1;
-                bfs(numCourses, i, vis, adj, indegree, order);
+                bfs(i, vis, adj, indegree, order);
             }
         }
         return (order.size() == numCourses) ? order : vector<int>{};
+        
     }
 };
