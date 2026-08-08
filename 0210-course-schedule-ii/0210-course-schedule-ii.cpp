@@ -1,22 +1,19 @@
 class Solution {
 private:
-    void dfs(int curr, vector<vector<int>>& adj, vector<int>& order, vector<int>& vis) {
+    bool dfs(int curr, vector<vector<int>>& adj, vector<int>& order, vector<int>& vis) {
         vis[curr] = 2;
         for(int i = 0; i < adj[curr].size(); i++) {
             int b = adj[curr][i];
             if(vis[b] == 2) {
-                //dfs(b, adj, order, vis);
-                order = vector<int>{};
-                return;
+                return false;
             }
             else if(!vis[b]) {
-                dfs(b, adj, order, vis);
-                vis[b] = 1;
-                if(order == vector<int>{}) return;
+                if(!dfs(b, adj, order, vis)) return false;
             }
         }
-        //vis[curr] = 1;
         order.push_back(curr);
+        vis[curr] = 1;
+        return true;
     }
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
@@ -32,10 +29,7 @@ public:
         
         for(int i = 0; i < numCourses; i++) {
             if(!vis[i]) {
-                dfs(i, adj, order, vis);
-                vis[i] = 1;
-                if(order == vector<int>{}) 
-                    return order;
+                if(!dfs(i, adj, order, vis)) return {};
             }
         }
         reverse(order.begin(), order.end());
