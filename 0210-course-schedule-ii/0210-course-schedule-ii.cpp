@@ -1,34 +1,42 @@
 class Solution {
+private:
+    void bfs(int numCourses, int i, vector<int>& vis, vector<vector<int>>& adj, vector<int>& indegree, vector<int>& order) {
+        queue<int>q;
+        q.push(i);
+        while(!q.empty()) {
+            int fr = q.front();
+            order.push_back(fr);
+            q.pop();
+            for(int i = 0; i < adj[fr].size(); i++) {
+                int b = adj[fr][i];
+                indegree[b]--;
+                if(!indegree[b] and !vis[b]) {
+                    vis[b] = 1;
+                    q.push(b);
+                }
+            }
+        }
+    }
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int>> adj(numCourses);
-        vector<int> indegree(numCourses, 0);
-        for(vector<int> num: prerequisites) {
-            int s = num[1];
-            int d = num[0];
-            adj[s].push_back(d);
-            indegree[d]++;
+        vector<vector<int>>adj(numCourses);
+        vector<int>indegree(numCourses, 0);
+        vector<int>vis(numCourses, 0);
+        vector<int>order;
+        int size = prerequisites.size();
+        for(int i = 0; i < size; i++) {
+            int a = prerequisites[i][0];
+            int b = prerequisites[i][1];
+            adj[b].push_back(a);
+            indegree[a]++;
         }
-        queue<int> q;
+        
         for(int i = 0; i < numCourses; i++) {
-            if(indegree[i] == 0) {
-                q.push(i);
+            if(!vis[i] and !indegree[i]) {
+                vis[i] = 1;
+                bfs(numCourses, i, vis, adj, indegree, order);
             }
         }
-        int c = 0;
-        vector<int> output;
-        while(!q.empty()) {
-            int course = q.front();
-            c++;
-            
-            q.pop();
-            for(int num : adj[course]) {
-                indegree[num]--;
-                if(indegree[num] == 0) q.push(num);
-            }
-            output.push_back(course);
-        }
-        if(c == numCourses) return output;
-        return {};
+        return (order.size() == numCourses) ? order : vector<int>{};
     }
 };
