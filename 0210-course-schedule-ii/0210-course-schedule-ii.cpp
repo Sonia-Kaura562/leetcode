@@ -6,7 +6,7 @@ private:
         for(int i = 0; i < adj[curr].size(); i++) {
             int b = adj[curr][i];
             indegree[b]--;
-            if(!indegree[b] and !vis[b]) {
+            if(!indegree[b]) {
                 dfs(b, adj, indegree, order, vis);
             }
         }
