@@ -1,20 +1,25 @@
 class Solution {
 private:
-    void dfs(int curr, vector<vector<int>>& adj, vector<int>& indegree, vector<int>& order, vector<int>& vis) {
-        vis[curr] = 1;
-        order.push_back(curr);
+    void dfs(int curr, vector<vector<int>>& adj, vector<int>& order, vector<int>& vis) {
+        vis[curr] = 2;
         for(int i = 0; i < adj[curr].size(); i++) {
             int b = adj[curr][i];
-            indegree[b]--;
-            if(!indegree[b]) {
-                dfs(b, adj, indegree, order, vis);
+            if(vis[b] == 2) {
+                //dfs(b, adj, order, vis);
+                order = vector<int>{};
+                return;
+            }
+            else if(!vis[b]) {
+                dfs(b, adj, order, vis);
+                if(order == vector<int>{}) return;
             }
         }
+        vis[curr] = 1;
+        order.push_back(curr);
     }
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>>adj(numCourses);
-        vector<int>indegree(numCourses, 0);
         vector<int>order;
         vector<int>vis(numCourses, 0);
         int size = prerequisites.size();
@@ -22,14 +27,18 @@ public:
             int a = prerequisites[i][0];
             int b = prerequisites[i][1];
             adj[b].push_back(a);
-            indegree[a]++;
         }
         
         for(int i = 0; i < numCourses; i++) {
-            if(!indegree[i] and !vis[i]) {
-                dfs(i, adj, indegree, order, vis);
+            if(!vis[i]) {
+                dfs(i, adj, order, vis);
+                vis[i] = 1;
+                if(order == vector<int>{}) 
+                    return order;
             }
         }
-        return (order.size() == numCourses) ? order : vector<int>{};
+        reverse(order.begin(), order.end());
+        //return (order.size() == numCourses) ? order : vector<int>{};
+        return order;
     }
 };
