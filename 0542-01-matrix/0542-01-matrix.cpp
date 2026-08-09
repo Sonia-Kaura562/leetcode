@@ -43,7 +43,6 @@ public:
             for(int j = 0; j < colSize; j++) {
                 if(!mat[i][j]) {
                     q.push({i, j});
-                    mat[i][j] = 0;
                     vis[i][j] = 1;
                 }
             }
