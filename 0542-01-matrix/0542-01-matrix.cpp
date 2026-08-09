@@ -13,18 +13,24 @@ private:
             int r = q.front().first;
             int c = q.front().second;
             q.pop();
-            // for(auto i : adj) {
-
-            // }
-            for(int i = 0; i < 4; i++) {
-                int adjR = r + adj[i][0];
-                int adjC = c + adj[i][1];
+            for(auto i : adj) {
+                int adjR = r + i[0];
+                int adjC = c + i[1];
                 if(adjR >= 0 and adjC >= 0 and adjR < rowSize and adjC < colSize and mat[adjR][adjC] and !vis[adjR][adjC]) {
                     mat[adjR][adjC] = mat[r][c] + 1;
                     vis[adjR][adjC] = 1;
                     q.push({adjR, adjC});
                 }
             }
+            // for(int i = 0; i < 4; i++) {
+            //     int adjR = r + adj[i][0];
+            //     int adjC = c + adj[i][1];
+            //     if(adjR >= 0 and adjC >= 0 and adjR < rowSize and adjC < colSize and mat[adjR][adjC] and !vis[adjR][adjC]) {
+            //         mat[adjR][adjC] = mat[r][c] + 1;
+            //         vis[adjR][adjC] = 1;
+            //         q.push({adjR, adjC});
+            //     }
+            // }
         }
     }
 public:
