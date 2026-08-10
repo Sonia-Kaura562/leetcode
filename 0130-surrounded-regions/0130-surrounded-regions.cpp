@@ -1,9 +1,9 @@
 class Solution {
 private:
-    void dfs(int r, int c, vector<vector<char>>& board, vector<vector<int>>& vis) {
+    void dfs(int r, int c, vector<vector<char>>& board) {
         int m = board.size();
         int n = board[0].size();
-        vis[r][c] = 1;
+        board[r][c] = '#';
         int adj[4][2] = {
             {0, -1},
             {-1, 0},
@@ -14,8 +14,8 @@ private:
             int row = r + adj[i][0];
             int col = c + adj[i][1];
 
-            if(row >= 0 and col >= 0 and row < m and col < n and !vis[row][col] and board[row][col] == 'O') {
-                dfs(row, col, board, vis);
+            if(row >= 0 and col >= 0 and row < m and col < n and board[row][col] == 'O') {
+                dfs(row, col, board);
             }
         }
     }
@@ -23,27 +23,30 @@ public:
     void solve(vector<vector<char>>& board) {
         int m = board.size();
         int n = board[0].size();
-        vector<vector<int>>vis(m, vector<int>(n, 0));
+        //vector<vector<int>>vis(m, vector<int>(n, 0));
         for(int i = 0; i < m; i++) {   
-           if(board[i][0] == 'O' and !vis[i][0]) {
-                dfs(i, 0, board, vis);
+           if(board[i][0] == 'O') {
+                dfs(i, 0, board);
            }
-           if(board[i][n-1] == 'O' and !vis[i][n-1]) {
-                dfs(i, n - 1, board, vis);
+           if(board[i][n-1] == 'O') {
+                dfs(i, n - 1, board);
            }
         }
         for(int j  = 0; j < n; j++) {
-            if(board[0][j] == 'O' and !vis[0][j]) {
-                dfs(0, j, board, vis);
+            if(board[0][j] == 'O') {
+                dfs(0, j, board);
             }
-            if(board[m-1][j] == 'O' and !vis[m-1][j]) {
-                dfs(m-1, j, board, vis);
+            if(board[m-1][j] == 'O') {
+                dfs(m-1, j, board);
             }
         }
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
-                if(!vis[i][j] and board[i][j] == 'O') {
+                if(board[i][j] == 'O') {
                     board[i][j] = 'X';
+                }
+                else if(board[i][j] == '#') {
+                    board[i][j] = 'O';
                 }
             }
         }
