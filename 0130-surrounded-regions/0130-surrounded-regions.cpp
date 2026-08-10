@@ -1,16 +1,15 @@
 class Solution {
 private:
-    int dfs(int row, int col, int s, vector<vector<char>>& board,
-            vector<vector<int>>& vis, vector<pair<int,int>>& cells) {
-
-        vis[row][col] = 1;
-        cells.push_back({row, col});
+    bool dfs(int row, int col, vector<vector<char>>& board,
+             vector<vector<int>>& vis) {
 
         int m = board.size();
         int n = board[0].size();
 
-        if (row == 0 || col == 0 || row == m - 1 || col == n - 1)
-            s = 1;
+        vis[row][col] = 1;
+
+        bool touchBoundary = (row == 0 || col == 0 ||
+                              row == m - 1 || col == n - 1);
 
         int adj[4][2] = {
             {0, -1},
@@ -26,11 +25,12 @@ private:
             if (r >= 0 && c >= 0 && r < m && c < n &&
                 board[r][c] == 'O' && !vis[r][c]) {
 
-                s = dfs(r, c, s, board, vis, cells);
+                if (dfs(r, c, board, vis))
+                    touchBoundary = true;
             }
         }
 
-        return s;
+        return touchBoundary;
     }
 
 public:
@@ -45,13 +45,35 @@ public:
 
                 if (board[i][j] == 'O' && !vis[i][j]) {
 
-                    vector<pair<int,int>> cells;
+                    int before = 0;
 
-                    int s = dfs(i, j, 0, board, vis, cells);
+                    dfs(i, j, board, vis);
 
-                    if (!s) {
-                        for (auto &cell : cells) {
-                            board[cell.first][cell.second] = 'X';
+                    bool boundary = false;
+
+                    for (int r = 0; r < m; r++) {
+                        for (int c = 0; c < n; c++) {
+                            if (vis[r][c] == 1 &&
+                                (r == 0 || c == 0 ||
+                                 r == m - 1 || c == n - 1)) {
+                                boundary = true;
+                            }
+                        }
+                    }
+
+                    if (!boundary) {
+                        for (int r = 0; r < m; r++) {
+                            for (int c = 0; c < n; c++) {
+                                if (vis[r][c] == 1)
+                                    board[r][c] = 'X';
+                            }
+                        }
+                    }
+
+                    for (int r = 0; r < m; r++) {
+                        for (int c = 0; c < n; c++) {
+                            if (vis[r][c] == 1)
+                                vis[r][c] = 2;
                         }
                     }
                 }
