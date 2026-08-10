@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Sonia-Kaura562/leetcode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/Sonia-Kaura562/leetcode/tree/master/0078-subsets) |
 | [0128-longest-consecutive-sequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/Sonia-Kaura562/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/Sonia-Kaura562/leetcode/tree/master/0542-01-matrix) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/Sonia-Kaura562/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Sonia-Kaura562/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/0210-course-schedule-ii) |
@@ -59,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/Sonia-Kaura562/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Sonia-Kaura562/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/0210-course-schedule-ii) |
@@ -71,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/Sonia-Kaura562/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Sonia-Kaura562/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Graph Theory
@@ -83,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/Sonia-Kaura562/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/Sonia-Kaura562/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sonia-Kaura562/leetcode/tree/master/0733-flood-fill) |
