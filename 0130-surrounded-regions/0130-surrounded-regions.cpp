@@ -24,14 +24,22 @@ public:
         int m = board.size();
         int n = board[0].size();
         vector<vector<int>>vis(m, vector<int>(n, 0));
-        for(int i = 0; i < m; i++) {
-            for(int j  = 0; j < n; j++) {
-                if((!vis[i][j] and board[i][j] == 'O') and (i == 0 or j == 0 or i == m - 1 or j == n - 1)) {
-                    dfs(i, j, board, vis);
-                } 
+        for(int i = 0; i < m; i++) {   
+           if(board[i][0] == 'O' and !vis[i][0]) {
+                dfs(i, 0, board, vis);
+           }
+           if(board[i][n-1] == 'O' and !vis[i][n-1]) {
+                dfs(i, n - 1, board, vis);
+           }
+        }
+        for(int j  = 0; j < n; j++) {
+            if(board[0][j] == 'O' and !vis[0][j]) {
+                dfs(0, j, board, vis);
+            }
+            if(board[m-1][j] == 'O' and !vis[m-1][j]) {
+                dfs(m-1, j, board, vis);
             }
         }
-
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
                 if(!vis[i][j] and board[i][j] == 'O') {
