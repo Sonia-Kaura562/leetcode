@@ -45,7 +45,7 @@ public:
 
                 if (board[i][j] == 'O' && !vis[i][j]) {
 
-                    int before = 0;
+                    
 
                     dfs(i, j, board, vis);
 
