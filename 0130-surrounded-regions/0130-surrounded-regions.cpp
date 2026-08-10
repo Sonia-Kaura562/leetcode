@@ -1,10 +1,16 @@
 class Solution {
 private:
-    void dfs(int row, int col, vector<vector<char>>& board) {
+    int dfs(int row, int col, int s, vector<vector<char>>& board,
+            vector<vector<int>>& vis, vector<pair<int,int>>& cells) {
+
+        vis[row][col] = 1;
+        cells.push_back({row, col});
+
         int m = board.size();
         int n = board[0].size();
 
-        board[row][col] = '#';
+        if (row == 0 || col == 0 || row == m - 1 || col == n - 1)
+            s = 1;
 
         int adj[4][2] = {
             {0, -1},
@@ -18,10 +24,13 @@ private:
             int c = col + adj[i][1];
 
             if (r >= 0 && c >= 0 && r < m && c < n &&
-                board[r][c] == 'O') {
-                dfs(r, c, board);
+                board[r][c] == 'O' && !vis[r][c]) {
+
+                s = dfs(r, c, s, board, vis, cells);
             }
         }
+
+        return s;
     }
 
 public:
@@ -29,28 +38,23 @@ public:
         int m = board.size();
         int n = board[0].size();
 
-        for (int i = 0; i < m; i++) {
-            if (board[i][0] == 'O')
-                dfs(i, 0, board);
-
-            if (board[i][n - 1] == 'O')
-                dfs(i, n - 1, board);
-        }
-
-        for (int j = 0; j < n; j++) {
-            if (board[0][j] == 'O')
-                dfs(0, j, board);
-
-            if (board[m - 1][j] == 'O')
-                dfs(m - 1, j, board);
-        }
+        vector<vector<int>> vis(m, vector<int>(n, 0));
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (board[i][j] == 'O')
-                    board[i][j] = 'X';
-                else if (board[i][j] == '#')
-                    board[i][j] = 'O';
+
+                if (board[i][j] == 'O' && !vis[i][j]) {
+
+                    vector<pair<int,int>> cells;
+
+                    int s = dfs(i, j, 0, board, vis, cells);
+
+                    if (!s) {
+                        for (auto &cell : cells) {
+                            board[cell.first][cell.second] = 'X';
+                        }
+                    }
+                }
             }
         }
     }
