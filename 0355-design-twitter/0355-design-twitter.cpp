@@ -1,10 +1,11 @@
 class Twitter {
+private: 
+    int time = 0;
+    unordered_map<int, vector<pair<int, int>>>tweets;
+    unordered_map<int, unordered_set<int>>following;
 public:
-        int time = 0;
-        unordered_map<int, vector<pair<int, int>>>tweets;
-        unordered_map<int, unordered_set<int>>following;
-    Twitter() {
         
+    Twitter() {
     }
     
     void postTweet(int userId, int tweetId) {
