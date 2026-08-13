@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sonia-Kaura562/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/Sonia-Kaura562/leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0355-design-twitter](https://github.com/Sonia-Kaura562/leetcode/tree/master/0355-design-twitter) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sonia-Kaura562/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0997-find-the-town-judge](https://github.com/Sonia-Kaura562/leetcode/tree/master/0997-find-the-town-judge) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Sonia-Kaura562/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0355-design-twitter](https://github.com/Sonia-Kaura562/leetcode/tree/master/0355-design-twitter) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -180,4 +182,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Sonia-Kaura562/leetcode/tree/master/0239-sliding-window-maximum) |
+## Linked List
+|  |
+| ------- |
+| [0355-design-twitter](https://github.com/Sonia-Kaura562/leetcode/tree/master/0355-design-twitter) |
+## Design
+|  |
+| ------- |
+| [0355-design-twitter](https://github.com/Sonia-Kaura562/leetcode/tree/master/0355-design-twitter) |
 <!---LeetCode Topics End-->
