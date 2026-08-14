@@ -53,11 +53,12 @@ public:
             mp[key]->value = value;
             insertNode(mp[key]); 
         }
-
         else {
             if(mp.size() == cap) {
                 mp.erase(tail->prev->key);
+                node*lru = tail->prev;
                 deleteNode(tail->prev);
+                delete (lru);
             }
             node*newnode = new node(key, value);
             insertNode(newnode); 
