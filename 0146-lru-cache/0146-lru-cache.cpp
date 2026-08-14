@@ -13,12 +13,6 @@ private:
     node*tail = new node(-1, -1);
     int cap;
     unordered_map<int, node*>mp;
-public:
-    LRUCache(int capacity) {
-        cap = capacity;
-        head->next = tail;
-        tail->prev = head;
-    }
     void deleteNode(node*delNode) {
         node* temp = delNode->next;
         node* tempPrev = delNode->prev;
@@ -33,6 +27,12 @@ public:
         insertNode->next = temp;
         insertNode->prev = head;
         head->next = insertNode;
+    }
+public:
+    LRUCache(int capacity) {
+        cap = capacity;
+        head->next = tail;
+        tail->prev = head;
     }
 
     int get(int key) {
