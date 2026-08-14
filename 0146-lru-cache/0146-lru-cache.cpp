@@ -37,7 +37,7 @@ public:
 
     int get(int key) {
         if(mp.find(key) != mp.end()) {
-            int value = (mp[key])->value;
+            int value = mp[key]->value;
             deleteNode(mp[key]);
            // node*newnode = new node(key, value);
            // mp[key] = newnode;
@@ -54,20 +54,15 @@ public:
             insertNode(mp[key]); 
         }
 
-        else if(mp.size() == cap) {
-            mp.erase(tail->prev->key);
-            deleteNode(tail->prev);
-            node*newnode = new node(key, value);
-            insertNode(newnode); 
-            mp[key] = newnode;
-        }
         else {
+            if(mp.size() == cap) {
+                mp.erase(tail->prev->key);
+                deleteNode(tail->prev);
+            }
             node*newnode = new node(key, value);
             insertNode(newnode); 
             mp[key] = newnode;
-        }
-        
-        
+        }   
     }
 };
 
