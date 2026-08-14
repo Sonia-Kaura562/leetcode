@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sonia-Kaura562/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/Sonia-Kaura562/leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0146-lru-cache](https://github.com/Sonia-Kaura562/leetcode/tree/master/0146-lru-cache) |
 | [0355-design-twitter](https://github.com/Sonia-Kaura562/leetcode/tree/master/0355-design-twitter) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sonia-Kaura562/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0997-find-the-town-judge](https://github.com/Sonia-Kaura562/leetcode/tree/master/0997-find-the-town-judge) |
@@ -192,10 +193,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Sonia-Kaura562/leetcode/tree/master/0146-lru-cache) |
 | [0355-design-twitter](https://github.com/Sonia-Kaura562/leetcode/tree/master/0355-design-twitter) |
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Sonia-Kaura562/leetcode/tree/master/0146-lru-cache) |
 | [0355-design-twitter](https://github.com/Sonia-Kaura562/leetcode/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Sonia-Kaura562/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
@@ -206,4 +209,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Sonia-Kaura562/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Sonia-Kaura562/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
