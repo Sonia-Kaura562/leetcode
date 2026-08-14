@@ -18,7 +18,6 @@ private:
         node* tempPrev = delNode->prev;
         temp->prev = tempPrev;
         tempPrev->next = temp;
-        //delete delNode;
     }
 
     void insertNode(node*insertNode) {
@@ -39,8 +38,6 @@ public:
         if(mp.find(key) != mp.end()) {
             int value = mp[key]->value;
             deleteNode(mp[key]);
-           // node*newnode = new node(key, value);
-           // mp[key] = newnode;
             insertNode(mp[key]);
             return value;
         }
