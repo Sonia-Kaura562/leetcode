@@ -3,21 +3,24 @@ public:
     int findCenter(vector<vector<int>>& edges) {
         int first = edges[0][0];
         int second = edges[0][1];
-        if(edges[1][0] == first) {
-            return first;
-        }
-
-        if(edges[1][1] == first) {
-            return first;
-        }
 
 
-        if(edges[1][0] == second) {
-            return second;
-        }
-        if(edges[1][1] == second) {
-            return second;
-        }
+        return edges[0][0] == edges[1][0] || edges[0][0] == edges[1][1] ? edges[0][0] : edges[0][1];
+        // if(edges[1][0] == first) {
+        //     return first;
+        // }
+
+        // if(edges[1][1] == first) {
+        //     return first;
+        // }
+
+
+        // if(edges[1][0] == second) {
+        //     return second;
+        // }
+        // if(edges[1][1] == second) {
+        //     return second;
+        // }
 
         return -1;
     }
