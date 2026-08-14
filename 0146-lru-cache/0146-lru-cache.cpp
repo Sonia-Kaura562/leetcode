@@ -24,7 +24,7 @@ public:
         node* tempPrev = delNode->prev;
         temp->prev = tempPrev;
         tempPrev->next = temp;
-        delete delNode;
+        //delete delNode;
     }
 
     void insertNode(node*insertNode) {
@@ -39,9 +39,9 @@ public:
         if(mp.find(key) != mp.end()) {
             int value = (mp[key])->value;
             deleteNode(mp[key]);
-            node*newnode = new node(key, value);
-            mp[key] = newnode;
-            insertNode(newnode);
+           // node*newnode = new node(key, value);
+           // mp[key] = newnode;
+            insertNode(mp[key]);
             return value;
         }
         return -1;
@@ -50,16 +50,24 @@ public:
     void put(int key, int value) {
         if(mp.find(key) != mp.end()) {
             deleteNode(mp[key]);
+            mp[key]->value = value;
+            insertNode(mp[key]); 
         }
 
         else if(mp.size() == cap) {
             mp.erase(tail->prev->key);
             deleteNode(tail->prev);
+            node*newnode = new node(key, value);
+            insertNode(newnode); 
+            mp[key] = newnode;
+        }
+        else {
+            node*newnode = new node(key, value);
+            insertNode(newnode); 
+            mp[key] = newnode;
         }
         
-        node*newnode = new node(key, value);
-        insertNode(newnode); 
-        mp[key] = newnode;
+        
     }
 };
 
