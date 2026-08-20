@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/Sonia-Kaura562/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sonia-Kaura562/leetcode/tree/master/0733-flood-fill) |
+| [0875-koko-eating-bananas](https://github.com/Sonia-Kaura562/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sonia-Kaura562/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0994-rotting-oranges](https://github.com/Sonia-Kaura562/leetcode/tree/master/0994-rotting-oranges) |
 | [0997-find-the-town-judge](https://github.com/Sonia-Kaura562/leetcode/tree/master/0997-find-the-town-judge) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Sonia-Kaura562/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0875-koko-eating-bananas](https://github.com/Sonia-Kaura562/leetcode/tree/master/0875-koko-eating-bananas) |
 ## Data Stream
 |  |
 | ------- |
