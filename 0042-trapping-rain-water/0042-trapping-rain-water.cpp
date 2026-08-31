@@ -12,11 +12,11 @@ public:
         }
         int sum = 0;
         for(int i = 1; i < size - 1; i++) {
-            if(height[i] < leftMax[i] or height[i] < rightMax[i]) {
+            //if(height[i] < leftMax[i] or height[i] < rightMax[i]) {
                 int left = leftMax[i];
                 int right = rightMax[i];
                 sum += max(0, min(left, right) - height[i]);
-            }
+            //}
         }
         return sum;
     }
