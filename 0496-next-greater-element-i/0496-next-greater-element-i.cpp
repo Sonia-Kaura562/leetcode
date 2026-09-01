@@ -10,7 +10,7 @@ public:
             mp[nums1[i]] = i;
         }
         for(int i = size - 1; i >= 0; i--) {
-            while(!st.empty() && st.top() < nums2[i]) {
+            while(!st.empty() && st.top() <= nums2[i]) {
                 st.pop();
             }
             if(!st.empty()) temp[i] = st.top();
