@@ -4,7 +4,7 @@ public:
         stack<int>st;
         int size = nums.size();
         vector<int> result(size);
-        for(int i = 2*size - 1; i >= 0; i--) {
+        for(int i = 2*size - 2; i >= 0; i--) {
             int index = i%size;
             while(!st.empty() && st.top() <= nums[index]) {
                 st.pop();
