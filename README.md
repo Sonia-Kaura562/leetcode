@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Sonia-Kaura562/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0994-rotting-oranges](https://github.com/Sonia-Kaura562/leetcode/tree/master/0994-rotting-oranges) |
 | [0997-find-the-town-judge](https://github.com/Sonia-Kaura562/leetcode/tree/master/0997-find-the-town-judge) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Sonia-Kaura562/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [2029-stone-game-ix](https://github.com/Sonia-Kaura562/leetcode/tree/master/2029-stone-game-ix) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/Sonia-Kaura562/leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Backtracking
@@ -151,12 +152,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/0503-next-greater-element-ii) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Sonia-Kaura562/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/0503-next-greater-element-ii) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Sonia-Kaura562/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Sorting
 |  |
 | ------- |
