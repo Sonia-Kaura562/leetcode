@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Sonia-Kaura562/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0322-coin-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0322-coin-change) |
 | [0496-next-greater-element-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/Sonia-Kaura562/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sonia-Kaura562/leetcode/tree/master/0733-flood-fill) |
 | [0875-koko-eating-bananas](https://github.com/Sonia-Kaura562/leetcode/tree/master/0875-koko-eating-bananas) |
@@ -149,11 +150,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/0503-next-greater-element-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/0503-next-greater-element-ii) |
 ## Sorting
 |  |
 | ------- |
