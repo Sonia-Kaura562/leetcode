@@ -11,11 +11,11 @@ public:
             return memo[i][j];
         }
         else {
-            int mini = min( 1 + solve(s1, s2, i, j + 1, memo), 1 + solve(s1, s2, i+1, j, memo));
-            memo[i][j] = min(mini, 1 + solve(s1, s2, i+1, j + 1, memo));
-            return memo[i][j];
+            int insert = 1 + solve(s1, s2, i, j + 1, memo);
+            int del = 1 + solve(s1, s2, i+1, j, memo);
+            int replace = 1 + solve(s1, s2, i+1, j + 1, memo);
+            return memo[i][j] = min({insert, del, replace});
         }
-
     }
     int minDistance(string word1, string word2) {
         int n = word1.size();
