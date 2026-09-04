@@ -2,19 +2,22 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         int size = height.size();
-        int result = 0;
-        vector<int>rightMax(size, 0);
-        rightMax[size - 1] = height[size - 1];
-        for(int i = size - 2; i >= 0; i--) {
-            rightMax[i] = max(height[i], rightMax[i + 1]);
-        }
+        int l = 0, r = size - 1;
         int leftMax = height[0];
-        for(int i = 0; i < size; i++) {
-            leftMax = max(leftMax, height[i]);
-            if(height[i] < leftMax && height[i] < rightMax[i]) {
-                result += min(leftMax, rightMax[i]) - height[i];
+        int rightMax = height[size - 1];
+        int total = 0;
+        while(l < r) {
+            leftMax = max(height[l], leftMax);
+            rightMax = max(height[r], rightMax);
+            if(leftMax <= rightMax) {
+                total += leftMax - height[l];
+                l++;
+            }
+            else {
+                total += rightMax - height[r];
+                r--;
             }
         }
-        return result;
+        return total;
     }
 };
