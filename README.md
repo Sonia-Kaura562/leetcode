@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Sonia-Kaura562/leetcode/tree/master/0070-climbing-stairs) |
 | [0258-add-digits](https://github.com/Sonia-Kaura562/leetcode/tree/master/0258-add-digits) |
 | [2029-stone-game-ix](https://github.com/Sonia-Kaura562/leetcode/tree/master/2029-stone-game-ix) |
+| [3871-count-commas-in-range-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3871-count-commas-in-range-ii) |
 ## Simulation
 |  |
 | ------- |
