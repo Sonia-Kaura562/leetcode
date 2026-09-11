@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0997-find-the-town-judge](https://github.com/Sonia-Kaura562/leetcode/tree/master/0997-find-the-town-judge) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Sonia-Kaura562/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [2029-stone-game-ix](https://github.com/Sonia-Kaura562/leetcode/tree/master/2029-stone-game-ix) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Sonia-Kaura562/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/Sonia-Kaura562/leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Backtracking
 |  |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Sonia-Kaura562/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0997-find-the-town-judge](https://github.com/Sonia-Kaura562/leetcode/tree/master/0997-find-the-town-judge) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Sonia-Kaura562/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Sliding Window
 |  |
 | ------- |
@@ -286,4 +288,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sonia-Kaura562/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Recursion
+|  |
+| ------- |
+| [3483-unique-3-digit-even-numbers](https://github.com/Sonia-Kaura562/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+## Enumeration
+|  |
+| ------- |
+| [3483-unique-3-digit-even-numbers](https://github.com/Sonia-Kaura562/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 <!---LeetCode Topics End-->
