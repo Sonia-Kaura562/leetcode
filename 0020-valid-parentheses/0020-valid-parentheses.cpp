@@ -1,7 +1,6 @@
 class Solution {
 public:
     bool isValid(string s) {
-        char arr[3][2] = {{'(', ')'}, {'{', '}'}, {'[', ']'}};
         unordered_map<char, char> mp;
         mp[')'] = '(';
         mp['}'] = '{';
