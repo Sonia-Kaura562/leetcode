@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Sonia-Kaura562/leetcode/tree/master/0200-number-of-islands) |
 | [0239-sliding-window-maximum](https://github.com/Sonia-Kaura562/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0322-coin-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0322-coin-change) |
+| [0455-assign-cookies](https://github.com/Sonia-Kaura562/leetcode/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/Sonia-Kaura562/leetcode/tree/master/0542-01-matrix) |
@@ -151,11 +152,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sonia-Kaura562/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0042-trapping-rain-water) |
 | [0295-find-median-from-data-stream](https://github.com/Sonia-Kaura562/leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0455-assign-cookies](https://github.com/Sonia-Kaura562/leetcode/tree/master/0455-assign-cookies) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0011-container-with-most-water) |
 | [0316-remove-duplicate-letters](https://github.com/Sonia-Kaura562/leetcode/tree/master/0316-remove-duplicate-letters) |
+| [0455-assign-cookies](https://github.com/Sonia-Kaura562/leetcode/tree/master/0455-assign-cookies) |
 | [2029-stone-game-ix](https://github.com/Sonia-Kaura562/leetcode/tree/master/2029-stone-game-ix) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Stack
@@ -181,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Sonia-Kaura562/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Sonia-Kaura562/leetcode/tree/master/0056-merge-intervals) |
 | [0295-find-median-from-data-stream](https://github.com/Sonia-Kaura562/leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0455-assign-cookies](https://github.com/Sonia-Kaura562/leetcode/tree/master/0455-assign-cookies) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Counting Sort
@@ -302,4 +306,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/0020-valid-parentheses) |
+## Quicksort
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/Sonia-Kaura562/leetcode/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
