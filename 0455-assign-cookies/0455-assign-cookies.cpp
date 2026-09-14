@@ -8,9 +8,7 @@ public:
         int i = 0;
         int j = 0;
         while(i < n && j < m) {
-            if(s[i] >= g[j]) {
-                j++;
-            }
+            if(s[i] >= g[j]) j++;
             i++;
         }
         return j;
