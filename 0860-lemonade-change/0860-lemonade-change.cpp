@@ -3,7 +3,7 @@ public:
     bool lemonadeChange(vector<int>& bills) {
         if(bills[0] != 5) return false;
         int n = bills.size();
-        int total[3] = {0, 0, 0};
+        int total[2] = {0, 0};
         for(int i = 0; i < n; i++) {
             if(bills[i] == 5) {
                 total[0]++;
@@ -20,11 +20,9 @@ public:
                     if(total[1]  && total[0]) {
                         total[0]--;
                         total[1]--;
-                        total[2]++;
                     }   
                     else if(total[0] >= 3) {
                         total[0] -= 3;
-                        total[2]++;
                     }
                     else return false;
                 }
