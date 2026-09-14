@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/Sonia-Kaura562/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sonia-Kaura562/leetcode/tree/master/0733-flood-fill) |
+| [0860-lemonade-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/Sonia-Kaura562/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sonia-Kaura562/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0994-rotting-oranges](https://github.com/Sonia-Kaura562/leetcode/tree/master/0994-rotting-oranges) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0011-container-with-most-water) |
 | [0316-remove-duplicate-letters](https://github.com/Sonia-Kaura562/leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0455-assign-cookies](https://github.com/Sonia-Kaura562/leetcode/tree/master/0455-assign-cookies) |
+| [0860-lemonade-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0860-lemonade-change) |
 | [2029-stone-game-ix](https://github.com/Sonia-Kaura562/leetcode/tree/master/2029-stone-game-ix) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Stack
