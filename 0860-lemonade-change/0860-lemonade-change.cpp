@@ -1,7 +1,6 @@
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
-        if(bills[0] != 5) return false;
         int n = bills.size();
         int fd = 0;
         int td = 0;
