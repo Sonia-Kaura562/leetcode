@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/Sonia-Kaura562/leetcode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Sonia-Kaura562/leetcode/tree/master/0049-group-anagrams) |
+| [0055-jump-game](https://github.com/Sonia-Kaura562/leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Sonia-Kaura562/leetcode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/Sonia-Kaura562/leetcode/tree/master/0078-subsets) |
 | [0128-longest-consecutive-sequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/Sonia-Kaura562/leetcode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Sonia-Kaura562/leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Sonia-Kaura562/leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/Sonia-Kaura562/leetcode/tree/master/0115-distinct-subsequences) |
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sonia-Kaura562/leetcode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/Sonia-Kaura562/leetcode/tree/master/0055-jump-game) |
 | [0316-remove-duplicate-letters](https://github.com/Sonia-Kaura562/leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0455-assign-cookies](https://github.com/Sonia-Kaura562/leetcode/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0860-lemonade-change) |
