@@ -9,12 +9,9 @@ public:
         int j = 0;
         while(i < n && j < m) {
             if(s[i] >= g[j]) {
-                i++;
                 j++;
             }
-            else {
-                i++;
-            }
+            i++;
         }
         return j;
     }
