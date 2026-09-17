@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/Sonia-Kaura562/leetcode/tree/master/0994-rotting-oranges) |
 | [0997-find-the-town-judge](https://github.com/Sonia-Kaura562/leetcode/tree/master/0997-find-the-town-judge) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Sonia-Kaura562/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Sonia-Kaura562/leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [2029-stone-game-ix](https://github.com/Sonia-Kaura562/leetcode/tree/master/2029-stone-game-ix) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Sonia-Kaura562/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/Sonia-Kaura562/leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/Sonia-Kaura562/leetcode/tree/master/0542-01-matrix) |
 | [1143-longest-common-subsequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/1143-longest-common-subsequence) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Sonia-Kaura562/leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 ## Two Pointers
 |  |
 | ------- |
@@ -210,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/0496-next-greater-element-i) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sonia-Kaura562/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0997-find-the-town-judge](https://github.com/Sonia-Kaura562/leetcode/tree/master/0997-find-the-town-judge) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Sonia-Kaura562/leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Sonia-Kaura562/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Sliding Window
@@ -218,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sonia-Kaura562/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/Sonia-Kaura562/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sonia-Kaura562/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Sonia-Kaura562/leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 ## Queue
 |  |
 | ------- |
@@ -254,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Sonia-Kaura562/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0875-koko-eating-bananas](https://github.com/Sonia-Kaura562/leetcode/tree/master/0875-koko-eating-bananas) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Sonia-Kaura562/leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 ## Data Stream
 |  |
 | ------- |
