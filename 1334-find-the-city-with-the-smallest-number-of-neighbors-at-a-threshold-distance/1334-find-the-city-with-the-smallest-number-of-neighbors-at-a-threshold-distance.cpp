@@ -24,11 +24,11 @@ public:
             }
         }
 
-        vector<int> ans(n, 0);
+        vector<int> count(n, 0);
          for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
                 if(adj[i][j] <= distanceThreshold) {
-                    ans[i]++;
+                    count[i]++;
                 }
             }
         }
@@ -36,8 +36,8 @@ public:
         int res = 1e8;
         int fin;
         for(int i = 0; i < n; i++) {
-            if(res >= ans[i]) {
-                res = ans[i];
+            if(res >= count[i]) {
+                res = count[i];
                 fin = i;
             }
         }
