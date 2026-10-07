@@ -24,15 +24,13 @@ public:
                 if(!temp->left && !temp->right) {
                     return ans;
                 }
-                else if(temp->left && temp->right) {
+
+                if (temp->left){
                     q.push(temp->left);
+                }
+
+                if(temp->right) {
                     q.push(temp->right);
-                }
-                else if (temp->left){
-                    q.push(temp->left);
-                }
-                else {
-                    q.push(temp->right); 
                 }
             }
             ans++;
