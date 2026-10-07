@@ -21,19 +21,19 @@ public:
             while(size--) {
                 TreeNode* temp = q.front();
                 q.pop();
-                if(temp->left || temp->right) {
-                    if(temp->left && temp->right) {
-                        q.push(temp->left);
-                        q.push(temp->right);
-                    }
-                    else if(temp->left) {
-                        q.push(temp->left);
-                    }
-                    else {
-                        q.push(temp->right);
-                    }
+                if(!temp->left && !temp->right) {
+                    return ans;
                 }
-                else return ans;
+                else if(temp->left && temp->right) {
+                    q.push(temp->left);
+                    q.push(temp->right);
+                }
+                else if (temp->left){
+                    q.push(temp->left);
+                }
+                else {
+                    q.push(temp->right); 
+                }
             }
             ans++;
         }
