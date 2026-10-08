@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/Sonia-Kaura562/leetcode/tree/master/0115-distinct-subsequences) |
 | [0316-remove-duplicate-letters](https://github.com/Sonia-Kaura562/leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0856-score-of-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/0856-score-of-parentheses) |
+| [1021-remove-outermost-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/1096-brace-expansion-ii) |
 | [1143-longest-common-subsequence](https://github.com/Sonia-Kaura562/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
@@ -211,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0856-score-of-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/0856-score-of-parentheses) |
+| [1021-remove-outermost-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/1096-brace-expansion-ii) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Sonia-Kaura562/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/0022-generate-parentheses) |
 | [0856-score-of-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/0856-score-of-parentheses) |
+| [1021-remove-outermost-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Sonia-Kaura562/leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 ## Quicksort
 |  |
