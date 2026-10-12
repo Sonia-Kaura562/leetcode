@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sonia-Kaura562/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Sonia-Kaura562/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2029-stone-game-ix](https://github.com/Sonia-Kaura562/leetcode/tree/master/2029-stone-game-ix) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sonia-Kaura562/leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Sonia-Kaura562/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3524-find-x-value-of-array-i](https://github.com/Sonia-Kaura562/leetcode/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3525-find-x-value-of-array-ii) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Sonia-Kaura562/leetcode/tree/master/0078-subsets) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sonia-Kaura562/leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 ## Tree
 |  |
 | ------- |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Sonia-Kaura562/leetcode/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/Sonia-Kaura562/leetcode/tree/master/0860-lemonade-change) |
 | [2029-stone-game-ix](https://github.com/Sonia-Kaura562/leetcode/tree/master/2029-stone-game-ix) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sonia-Kaura562/leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Stack
 |  |
@@ -256,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Sonia-Kaura562/leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sonia-Kaura562/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Sonia-Kaura562/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sonia-Kaura562/leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sonia-Kaura562/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Sonia-Kaura562/leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Sliding Window
